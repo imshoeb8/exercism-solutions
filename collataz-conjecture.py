@@ -4,7 +4,7 @@ def steps(number):
     number = number / 2 if number % 2 == 0 else number * 3 + 1
     return 1 + steps(number)
 
-def steps(n):
+def steps_2(n):
     if n < 1:
         raise ValueError('Only positive integers are allowed')
 
